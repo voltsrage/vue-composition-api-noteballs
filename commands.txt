@@ -1,0 +1,19 @@
+npm init vue@latest
+
+npm install vue-router@4
+
+npm install pinia
+
+npm i @vueuse/core
+
+npm install firebase
+
+npm install firebase-tools -g
+
+# need firebase account to work
+
+firebase login
+
+firebase init functions
+
+firebase deploy --only firestore:rules
